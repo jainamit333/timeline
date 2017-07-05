@@ -1,0 +1,63 @@
+{
+  "md-card":[
+
+    {
+      "visible":true,
+      "card-color":"female",
+      "avatar_present":true,
+      "avatar":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "title":"Antarika Baruah",
+      "description":"my description",
+      "image":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "content":"my long content , currently support text only",
+      "large_col":4,
+      "small_col":5,
+      "extra_small":12,
+      "actions":["album","date_range"]
+    },
+    {
+      "visible":true,
+      "card-color":"both",
+      "avatar_present":true,
+      "avatar":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "title":"Antarika Baruah",
+      "description":"my description",
+      "image":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "content":"my long content , currently support text only",
+      "large_col":7,
+      "small_col":5,
+      "extra_small":12,
+      "actions":["album","date_range"]
+    },
+    {
+      "visible":true,
+      "card-color":"both",
+      "avatar_present":true,
+      "avatar":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "title":"Antarika Baruah",
+      "description":"my description",
+      "image":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "content":"my long content , currently support text only",
+      "large_col":7,
+      "small_col":5,
+      "extra_small":12,
+      "actions":["album","date_range"]
+    },
+    {
+      "visible":true,
+      "card-color":"male",
+      "avatar_present":true,
+      "avatar":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "title":"Antarika Baruah",
+      "description":"my description",
+      "image":"http://static-1.350cc.com/wp-content/gallery/44-custom-2015-thunderbird-350cc-by-puranam-design/Custom-Bike-Royal-Enfield.jpg",
+      "content":"my long content , currently support text only",
+      "large_col":4,
+      "small_col":5,
+      "extra_small":12,
+      "actions":["album","date_range"]
+    }
+
+  ]
+
+}

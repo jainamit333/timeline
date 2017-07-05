@@ -1,0 +1,37 @@
+body{
+  padding: 5px;
+  align-content: center;
+}
+
+i{
+  cursor: pointer ;
+}
+md-card{
+  margin: 2px 4px 4px 4px;
+  min-height: 400px;
+}
+md-card-title{
+  font-weight: bold;
+}
+
+.female{
+  background-color: pink;
+
+}
+img .md-card-image{
+
+  height: 200px;
+}
+
+.male {
+  background-color: steelblue;
+}
+
+.both{
+
+  background: #8C29FF; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, pink , steelblue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, pink, steelblue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, pink, steelblue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, pink , steelblue); /* Standard syntax */
+}
