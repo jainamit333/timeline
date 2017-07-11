@@ -1,0 +1,14 @@
+{
+  "visible":true,
+  "color":"female",
+  "avatar_present":true,
+  "avatar":"http://res.cloudinary.com/dhuynu1ka/image/upload/v1499498619/IMG-20130203-WA0030_csqml5_nedffh.jpg",
+  "title":"Antarika Baruah",
+  "description":"I am a free bird. I believe love has the ability to change each and every heart for good.",
+  "image":"http://res.cloudinary.com/dhuynu1ka/image/upload/v1499500432/IMG_20170315_074521_lq4e4p.jpg",
+  "content":"I am based out of Guwahati,Assam hence a proud assamese by birth. I did my schooling till 10th in Guwahati. 11, 12th and College in Delhi.Worked in Infosys for 4 years in Hyderabad and currently working with Accenture Pune.",
+  "large_col":"col-lg-5",
+  "small_col":"col-sm-11",
+  "extra_small":"col-xs-11",
+  "actions":["album","date_range"]
+}

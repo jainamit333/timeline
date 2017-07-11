@@ -1,0 +1,19 @@
+<header>
+  <nav class="cd-stretchy-nav " [ngClass]="{'nav-is-visible': menuExtended}">
+    <a class="cd-nav-trigger" href="#0" (click)="toggleMenu()">
+      Menu
+      <span aria-hidden="true"></span>
+    </a>
+
+    <ul>
+      <li><a href="#0" routerLink="/" class="active"><span class="menu-text hidden-xs">Home</span></a></li>
+      <li><a href="#0" routerLink="portfolio"><span class="menu-text hidden-xs">Portfolio</span></a></li>
+      <li><a href="#0" routerLink="timeline"><span class="menu-text hidden-xs">Timeline</span></a></li>
+      <li><a href="#0" routerLink="gallery"><span class="menu-text hidden-xs">Gallery</span></a></li>
+      <li><a href="#0" routerLink="contact"><span class="menu-text hidden-xs">Contact</span></a></li>
+
+    </ul>
+
+    <span aria-hidden="true" class="stretchy-nav-bg"></span>
+  </nav>
+</header>

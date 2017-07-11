@@ -1,0 +1,14 @@
+{
+  "visible":true,
+  "color":"male",
+  "avatar_present":true,
+  "avatar":"http://res.cloudinary.com/dhuynu1ka/image/upload/v1499754644/IMG_20170415_142423_sz6nkg.jpg",
+  "title":"Amit Jain",
+  "description":"Cancerian, love to travel, love all kind of cuisine. looking for a world to change",
+  "image":"http://res.cloudinary.com/dhuynu1ka/image/upload/v1499754656/IMG_20170317_103658_djrcxx.jpg",
+  "content":"I am an Engineer that too by choice not by force. Love my laptop, living in the the great era of science.",
+  "large_col":"col-lg-5",
+  "small_col":"col-sm-11",
+  "extra_small":"col-xs-11",
+  "actions":["album","date_range"]
+}

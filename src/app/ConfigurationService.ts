@@ -11,9 +11,9 @@ import 'rxjs/add/operator/catch';
 
 @Injectable()
 export class ConfigurationService {
-  constructor(private http: Http) {
-  }
-  getConfiguration = (): Observable<Response> => {
-    return this.http.get('app/app-ui.json').map(res => res.json());
+  constructor(private http: Http) {}
+  getLayoutData = (filePath): Observable<Response> => {
+    return this.http.get(filePath)
+      .map(res => res.json());
   }
 }

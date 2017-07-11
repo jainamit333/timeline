@@ -1,0 +1,14 @@
+<md-card [ngClass]="[data.color , data.large_col, data.small_col, data.extra_small]">
+  <md-card-header>
+    <img md-card-avatar src="{{ data.avatar}}">
+    <md-card-title>{{data.title }}</md-card-title>
+    <md-card-subtitle>{{ data.description }}</md-card-subtitle>
+  </md-card-header>
+  <img md-card-image src="{{ data.image}}" class="md-card-image">
+  <md-card-content>
+    <p>{{ data.content }} </p>
+  </md-card-content>
+  <md-card-footer >
+    <i *ngFor=" let action of data.actions" class="material-icons">{{action}}</i>
+  </md-card-footer>
+</md-card>
