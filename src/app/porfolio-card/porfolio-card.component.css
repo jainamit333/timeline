@@ -1,3 +1,9 @@
+md-card-footer i:hover{
+
+  background-color: lightgrey;
+  border-radius: 3px;
+}
+
 md-card{
   margin: 4px 7px 4px 1px;
   min-height: 500px;
@@ -9,12 +15,6 @@ md-card-title{
 md-card-footer i{
   margin-right: 2px;
   margin-left: 7px;
-}
-
-md-card-footer i:hover{
-
-  background-color: lightgrey;
-  border-radius: 3px;
 }
 
 md-card-footer i:active{

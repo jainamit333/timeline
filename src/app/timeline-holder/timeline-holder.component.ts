@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ConfigurationService} from '../ConfigurationService';
 
 @Component({
   selector: 'app-timeline-holder',
@@ -7,9 +8,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimelineHolderComponent implements OnInit {
 
-  constructor() { }
+  showTimeLine = true;
+  timeline ;
+  timeline_2;
+
+  constructor(private _ConfigurationService: ConfigurationService) {
+    console.log('constructor')
+    this._ConfigurationService.getLayoutData('/assets/data/antarika-timeline.json').subscribe(
+      (res: Object) => {
+
+        (<Array<any>>res).forEach((value, index, array) => {
+          array[index]['date'] = new Date(value['date']);
+        })
+        this.timeline = res;
+      }
+    )
+    this._ConfigurationService.getLayoutData('/assets/data/amit-timeline.json').subscribe(
+      (res: Object ) => {
+        (<Array<any>>res).forEach((value, index, array) => {
+          array[index]['date'] = new Date(value['date']);
+        })
+        this.timeline_2 = res;
+      }
+    )
+  }
 
   ngOnInit() {
+    console.log('on init')
   }
 
 }

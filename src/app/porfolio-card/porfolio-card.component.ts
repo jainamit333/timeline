@@ -15,7 +15,6 @@ export class PorfolioCardComponent implements OnInit {
   ngOnInit() {
     this._ConfigurationService.getLayoutData(this.dataPath).subscribe(
       (res) => {
-        console.log(res);
         this.data = res;
       }
     )
