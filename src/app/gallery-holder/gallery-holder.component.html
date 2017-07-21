@@ -1,3 +1,3 @@
-<p>
-  gallery-holder works!
-</p>
+<div class="columns">
+  <app-image-card *ngFor = "let data of gallery " dataPath="{{ data.dataPath }}" text="{{ data.text }}"></app-image-card>
+</div>

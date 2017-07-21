@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ConfigurationService} from '../ConfigurationService';
 
 @Component({
   selector: 'app-gallery-holder',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryHolderComponent implements OnInit {
 
-  constructor() { }
-
+  gallery;
+  constructor(private _ConfigurationService: ConfigurationService) { }
   ngOnInit() {
+    this._ConfigurationService.getLayoutData('/assets/data/gallery.json').subscribe(
+      (res) => {
+        this.gallery = res;
+      }
+    )
   }
 
 }

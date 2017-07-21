@@ -19,6 +19,7 @@ import { TimelineHolderComponent } from './timeline-holder/timeline-holder.compo
 import { WelcomeComponent } from './welcome/welcome.component';
 import { GalleryHolderComponent } from './gallery-holder/gallery-holder.component';
 import { ContactHolderComponent } from './contact-holder/contact-holder.component';
+import { ImageCardComponent } from './image-card/image-card.component';
 
 
 
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     TimelineHolderComponent,
     WelcomeComponent,
     GalleryHolderComponent,
-    ContactHolderComponent
+    ContactHolderComponent,
+    ImageCardComponent
   ],
   imports: [
     BrowserModule,
