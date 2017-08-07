@@ -20,7 +20,13 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { GalleryHolderComponent } from './gallery-holder/gallery-holder.component';
 import { ContactHolderComponent } from './contact-holder/contact-holder.component';
 import { ImageCardComponent } from './image-card/image-card.component';
+import { EventCardComponent } from './event-card/event-card.component';
+import { EventaHolderComponent } from './eventa-holder/eventa-holder.component';
+import { EventsHolderComponent } from './events-holder/events-holder.component';
 
+import { SlickModule } from 'ngx-slick';
+import { SwiperModule } from 'ngx-swiper-wrapper';
+import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
 
 
 const appRoutes: Routes = [
@@ -30,6 +36,13 @@ const appRoutes: Routes = [
   { path: 'contact', component: ContactHolderComponent },
   { path: '', component: WelcomeComponent }
   ]
+
+
+const SWIPER_CONFIG: SwiperConfigInterface = {
+  direction: 'horizontal',
+  slidesPerView: 'auto',
+  keyboardControl: true
+};
 
 @NgModule({
   declarations: [
@@ -43,7 +56,10 @@ const appRoutes: Routes = [
     WelcomeComponent,
     GalleryHolderComponent,
     ContactHolderComponent,
-    ImageCardComponent
+    ImageCardComponent,
+    EventCardComponent,
+    EventaHolderComponent,
+    EventsHolderComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +71,9 @@ const appRoutes: Routes = [
     MdIconModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes,{enableTracing: true })
+    RouterModule.forRoot(appRoutes, { enableTracing: true }),
+    SlickModule.forRoot(),
+    SwiperModule.forRoot(SWIPER_CONFIG)
   ],
   providers: [ConfigurationService],
   bootstrap: [AppComponent]
