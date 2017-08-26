@@ -2,10 +2,10 @@
   src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
 }
 .columns {
-  column-width: 200px;
-  column-gap: 15px;
+  column-width: 230px;
+  column-gap: 10px;
   width: 90%;
   max-width: 1100px;
-  margin: 50px auto;
+  margin: 40px auto;
 }
 

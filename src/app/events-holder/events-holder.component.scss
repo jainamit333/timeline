@@ -1,3 +1,166 @@
-.carousel-inner{
-  background-image: url("http://coolwallpaperz.info/user-content/uploads/wall/o/44/abstract-love-p-hd-wallszone-757027.jpg");
+
+#content {
+  width: 100em;
+  margin: auto;
+  /*display: box; // fallback for older browsers
+  display: flexbox; // fallback for IE10
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;*/
+}
+#content:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+#content .content-inner {
+  margin-left: -2em;
+}
+
+[am-metro-box] {
+  overflow: hidden;
+  font-family: Verdana;
+  background-color: #ECF0F1;
+  width: 14.66667em;
+  padding-bottom: 14.66667em;
+  position: relative;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  transition: all .3s linear;
+  float: left;
+}
+[am-metro-box] div {
+  position: absolute;
+  display: box;
+  display: flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+[am-metro-box~="row=3"] {
+  padding-bottom: 0.0em;
+}
+
+[am-metro-box~="row=2"] {
+  padding-bottom: 31.33333em;
+}
+
+[am-metro-box~="col=2"] {
+  width: 31.33333em;
+}
+
+[am-metro-box~="col=3"] {
+  width: 48em;
+}
+
+[am-metro-box~="col=4"] {
+  width: 64.66667em;
+}
+
+[am-metro-box]:hover {
+  background-color: lightgreen;
+}
+
+[am-metro-box~="blue"] {
+  background-color: #1488C8;
+}
+
+[am-metro-box~="blue"]:hover {
+  background-color: #26a4e9;
+}
+
+[am-metro-box~="yellow"] {
+  background-color: #F7E041;
+}
+
+[am-metro-box~="yellow"]:hover {
+  background-color: #f9e872;
+}
+
+[am-metro-box] div span {
+  color: #32252F;
+}
+
+[am-metro-box~="blue"] div span {
+  color: #f2f2f2;
+}
+
+[am-metro-box~="yellow"] div span {
+  color: #4d4d4d;
+}
+
+
+
+[am-metro-box~="branco"] {
+  background: #ffffff;
+}
+
+
+
+[am-metro-box~="azul1"] {
+  background: white;
+}
+
+[am-metro-box~="azul2"] {
+  background: #92d8ad;
+}
+
+[am-metro-box~="azul3"] {
+  background: #0060AE;
+}
+
+[am-metro-box~="verde1"] {
+  background: #91CE18;
+}
+
+[am-metro-box~="verde2"] {
+  background: #A6CE39;
+}
+
+[am-metro-box~="verde3"] {
+  background: #00A648;
+}
+
+[am-metro-box~="verde4"] {
+  background: #7DC242;
+}
+
+
+[am-metro-box~="amarelo1"] {
+  background: #FFCA00;
+}
+
+[am-metro-box~="amarelo2"] {
+  background: #FFCB05;
+}
+
+[am-metro-box~="laranja1"] {
+  background: #F58220;
+}
+
+[am-metro-box~="vermelho1"] {
+  background: #FF141E;
+}
+
+[am-metro-box~="lilas1"] {
+  background: #BC1C91;
+}
+
+.panner app-profile-card-left{
+
+  position: absolute;
+  left:10px;
+
+}
+
+.panner app-profile-card-right{
+
+  position: absolute;
+  right:10px;
 }

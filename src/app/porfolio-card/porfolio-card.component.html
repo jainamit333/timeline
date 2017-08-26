@@ -1,4 +1,5 @@
-<md-card [ngClass]="[data.color , data.large_col, data.small_col, data.extra_small]">
+
+<md-card *ngIf="data" [ngClass]="[data.color , data.large_col, data.small_col, data.extra_small]">
   <md-card-header>
     <img md-card-avatar src="{{ data.avatar}}">
     <md-card-title>{{data.title }}</md-card-title>

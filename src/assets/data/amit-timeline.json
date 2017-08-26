@@ -1,5 +1,26 @@
 [
-  { "date" : "12.07.2017", "title": "title", "selected": true, "content": "content", "imagePresent": true, "image": "https://www.codeproject.com/KB/testing/1002904/Test-URL-Redirects-HttpWebRequest.jpg" },
-  { "date" : "12.07.2018", "title": "title", "selected": false, "content": "content", "imagePresent": false, "image": "https://www.codeproject.com/KB/testing/1002904/Test-URL-Redirects-HttpWebRequest.jpg" },
-  { "date" : "12.07.2019", "title": "title", "selected": false, "content": "content", "imagePresent": false, "image": ""}
+  {
+    "date": "11.07.1990",
+    "title": "title",
+    "selected": true,
+    "content": "content",
+    "imagePresent": true,
+    "image": "https://www.codeproject.com/KB/testing/1002904/Test-URL-Redirects-HttpWebRequest.jpg"
+  },
+  {
+    "date": "12.07.2018",
+    "title": "title",
+    "selected": false,
+    "content": "content",
+    "imagePresent": false,
+    "image": "https://www.codeproject.com/KB/testing/1002904/Test-URL-Redirects-HttpWebRequest.jpg"
+  },
+  {
+    "date": "12.07.2019",
+    "title": "title",
+    "selected": false,
+    "content": "content",
+    "imagePresent": false,
+    "image": ""
+  }
 ]

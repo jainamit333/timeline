@@ -10,10 +10,9 @@ $orange: #EB8B6E;
 
 
 .container {
-  max-width: 400px;
-  max-height: 630px;
-  overflow: hidden;
-  margin: 15px auto 0;
+  max-width: 31.3333em;
+  height: 47.999995em;
+  overflow:scroll;
   box-shadow: 0 0 40px lighten($black, 70);
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;

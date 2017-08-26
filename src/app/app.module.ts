@@ -27,13 +27,15 @@ import { EventsHolderComponent } from './events-holder/events-holder.component';
 import { SlickModule } from 'ngx-slick';
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
+import { ProfileCardLeftComponent } from './profile-card-left/profile-card-left.component';
+import { ProfileCardRightComponent } from './profile-card-right/profile-card-right.component';
 
 
 const appRoutes: Routes = [
-  { path: 'portfolio', component: PorfolioHolderComponent },
+  // { path: 'portfolio', component: PorfolioHolderComponent },
   { path: 'timeline', component: TimelineHolderComponent },
   { path: 'gallery', component: GalleryHolderComponent },
-  { path: 'contact', component: ContactHolderComponent },
+  // { path: 'contact', component: ContactHolderComponent },
   { path: '', component: WelcomeComponent }
   ]
 
@@ -59,7 +61,9 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     ImageCardComponent,
     EventCardComponent,
     EventaHolderComponent,
-    EventsHolderComponent
+    EventsHolderComponent,
+    ProfileCardLeftComponent,
+    ProfileCardRightComponent
   ],
   imports: [
     BrowserModule,
