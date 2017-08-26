@@ -1,78 +1,26 @@
 <div class="container">
   <div class="header">
     <div class="color-overlay">
-      <div class="day-number">23</div>
+      <div class="day-number">{{ mainEvent.day.date}}</div>
       <div class="date-right">
-        <div class="day-name">Tuesday</div>
-        <div class="month">January 2018</div>
+        <div class="day-name">{{ mainEvent.day.day}}</div>
+        <div class="month">{{ mainEvent.day.month}} {{ mainEvent.day.year}}</div>
       </div>
+      <h3>{{mainEvent.name}}</h3>
+      <h6>{{mainEvent.description}}</h6>
     </div>
     <!--<div class="actionbutton">+</div>-->
   </div>
   <div class="timeline">
     <ul>
-      <li>
+      <li *ngFor  ="let data of mainEvent.timeline ">
         <div class="bullet pink"></div>
-        <div class="time">5pm</div>
+        <div class="time">{{ data.time}}</div>
         <div class="desc">
-          <h3>New Icon</h3>
-          <h4>Mobile App</h4>
-        </div>
-      </li>
-      <li>
-        <div class="bullet green"></div>
-        <div class="time">3 - 4pm</div>
-        <div class="desc">
-          <h3>Design Stand Up</h3>
-          <h4>Hangouts</h4>
+          <h3>{{ data.name }}</h3>
+          <h4>{{ data.description }}</h4>
           <div class="people">
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg" alt="" />
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg" alt="" />
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mattsince87/128.jpg" alt="" />
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="bullet orange"></div>
-        <div class="time">12pm</div>
-        <div class="desc">
-          <h3>Lunch Break</h3>
-        </div>
-      </li>
-      <li>
-        <div class="bullet green"></div>
-        <div class="time">9 - 11am</div>
-        <div class="desc">
-          <h3>Finish Home Screen</h3>
-          <h4>Web App</h4>
-        </div>
-      </li>
-      <li>
-        <div class="bullet green"></div>
-        <div class="time">9 - 11am</div>
-        <div class="desc">
-          <h3>Finish Home Screen</h3>
-          <h4>Web App</h4>
-        </div>
-      </li>
-      <li>
-        <div class="bullet green"></div>
-        <div class="time">9 - 11am</div>
-        <div class="desc">
-          <h3>Finish Home Screen</h3>
-          <h4>Web App</h4>
-        </div>
-      </li>
-      <li>
-        <div class="bullet green"></div>
-        <div class="time">3 - 4pm</div>
-        <div class="desc">
-          <h3>Design Stand Up</h3>
-          <h4>Hangouts</h4>
-          <div class="people">
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg" alt="" />
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg" alt="" />
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mattsince87/128.jpg" alt="" />
+            <img *ngFor = "let people of data.images " src="{{ people }}">
           </div>
         </div>
       </li>

@@ -20,6 +20,7 @@
 
 [am-metro-box] {
   overflow: hidden;
+
   font-family: Verdana;
   background-color: #ECF0F1;
   width: 14.66667em;
@@ -32,8 +33,6 @@
 }
 [am-metro-box] div {
   position: absolute;
-  display: box;
-  display: flexbox;
   display: flex;
   align-items: center;
   justify-content: center;

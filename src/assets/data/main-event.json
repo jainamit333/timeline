@@ -1,0 +1,41 @@
+{
+  "name": "Sagan/Roka",
+  "description": "",
+  "day": {
+    "date": "25",
+    "month": "September",
+    "day": "Monday",
+    "year": "2017"
+  },
+  "timeline": [
+    {
+      "time": "9 am",
+      "name": "Gathering",
+      "description": "Let meet and greet",
+      "images": [
+        "http://res.cloudinary.com/jainamit333/image/upload/v1503740934/IMG_20170813_113400_ygfysj.jpg",
+        "http://res.cloudinary.com/jainamit333/image/upload/v1503740941/IMG_20170814_111213_iwassk.jpg",
+        "http://res.cloudinary.com/jainamit333/image/upload/v1503740936/IMG_20170819_225422466_BURST000_COVER_TOP_xhbzr4.jpg",
+        "http://res.cloudinary.com/jainamit333/image/upload/v1503740938/IMG_20170814_110630_l5qwdn.jpg",
+        "http://res.cloudinary.com/jainamit333/image/upload/v1503740930/IMG-20170601-WA0000_lnerck.jpg",
+        "http://res.cloudinary.com/jainamit333/image/upload/v1503740976/20170315_074935_ycpjbu.jpg"
+      ]
+    },
+    {
+      "time": "10 am",
+      "name": "Ring Exchange"
+    },
+    {
+      "time": "10:30 am",
+      "name": "Cake Cutting"
+    },
+    {
+      "time": "10:30-11 am",
+      "name": "Photo Shoot"
+    },
+    {
+      "time": "11-12 am",
+      "name": "Food"
+    }
+  ]
+}

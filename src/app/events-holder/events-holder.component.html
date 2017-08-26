@@ -1,52 +1,33 @@
-<!--
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  &lt;!&ndash; Indicators &ndash;&gt;
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  &lt;!&ndash; Wrapper for slides &ndash;&gt;
-
-
-  &lt;!&ndash; Left and right controls &ndash;&gt;
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
--->
-
-
-<!--<div class="row">-->
-  <!--<app-event-card class="col-lg-3"></app-event-card>-->
-  <!--<app-event-card class="col-lg-3"></app-event-card>-->
-  <!--<app-event-card class="col-lg-3"></app-event-card>-->
-<!--</div>-->
-
 <div id="content">
   <div class="content-inner">
-    <a href="#" am-metro-box="row=3 col=2 azul2" style="overflow: scroll">
-      <app-event-card></app-event-card>
+
+    <a href="#" am-metro-box="row=3 col=2 azul2" style="overflow-y: scroll">
+      <app-event-card [mainEvent]="mainEvent"></app-event-card>
     </a>
-    <a href="#" am-metro-box="row=1 col=2 azul1">
+
+    <a href="#" am-metro-box="row=1 col=2 verde1">
 
     </a>
+
     <a href="#" am-metro-box="row=1 col=2 verde1">
       <div>
         <span>conteudo</span>
       </div>
     </a>
+
+    <a href="#" am-metro-box="row=1 col=4 azul2">
+      <div class="panner">
+        <app-profile-card-left></app-profile-card-left>
+        <app-profile-card-right></app-profile-card-right>
+      </div>
+    </a>
+
     <a href="#" am-metro-box="row=1 col=2 azul2">
       <div>
         <span>col=1 and row=2</span>
       </div>
     </a>
+
     <a href="#" am-metro-box="row=1 col=1 verde2">
       <div class="carousel slide" data-ride="carousel" data-interval="1000">
         <!-- Wrapper for slides -->
@@ -57,10 +38,12 @@
           <div class="item">
             <img src="http://res.cloudinary.com/dhuynu1ka/image/upload/v1500629370/MomentCam_20170715_214250_rwudt6.jpg" class="img-responsive"/>
           </div>
+          
         </div>
       </div>
 
     </a>
+
     <a href="#" am-metro-box="row=1 col=1 verde2">
       <div class="carousel slide" data-ride="carousel" data-interval="1200">
         <!-- Wrapper for slides -->
@@ -76,24 +59,7 @@
         </div>
       </div>
     </a>
-    <a href="#" am-metro-box="row=1 col=4 azul2">
-     <div class="panner">
-       <app-profile-card-left></app-profile-card-left>
-       <app-profile-card-right></app-profile-card-right>
-     </div>
-    </a>
 
-
-    <a href="#" am-metro-box="row=3 col=2 azul2">
-      <app-event-card ></app-event-card>
-    </a>
-
-
-    <a href="#" am-metro-box="row=2 col=4 verde3">
-      <div>
-        <span>col=1 and row=1</span>
-      </div>
-    </a>
 
   </div>
 </div>

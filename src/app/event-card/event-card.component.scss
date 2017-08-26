@@ -12,7 +12,6 @@ $orange: #EB8B6E;
 .container {
   max-width: 31.3333em;
   height: 47.999995em;
-  overflow:scroll;
   box-shadow: 0 0 40px lighten($black, 70);
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -79,7 +78,7 @@ img {
 
 .actionbutton {
   position: absolute;
-  background: $pink;
+  background: darkgreen;
   width: 50px;
   height: 50px;
   font-size: 3em;
@@ -187,8 +186,9 @@ h4 {
 }
 
 .people img{
-  width: 30px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
+  margin: 1px;
   border-radius: 50%;
 }
 }

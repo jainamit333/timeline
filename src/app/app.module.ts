@@ -21,9 +21,8 @@ import { GalleryHolderComponent } from './gallery-holder/gallery-holder.componen
 import { ContactHolderComponent } from './contact-holder/contact-holder.component';
 import { ImageCardComponent } from './image-card/image-card.component';
 import { EventCardComponent } from './event-card/event-card.component';
-import { EventaHolderComponent } from './eventa-holder/eventa-holder.component';
 import { EventsHolderComponent } from './events-holder/events-holder.component';
-
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { SlickModule } from 'ngx-slick';
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
@@ -60,7 +59,6 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     ContactHolderComponent,
     ImageCardComponent,
     EventCardComponent,
-    EventaHolderComponent,
     EventsHolderComponent,
     ProfileCardLeftComponent,
     ProfileCardRightComponent
@@ -77,7 +75,8 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     HttpModule,
     RouterModule.forRoot(appRoutes, { enableTracing: true }),
     SlickModule.forRoot(),
-    SwiperModule.forRoot(SWIPER_CONFIG)
+    SwiperModule.forRoot(SWIPER_CONFIG),
+    CarouselModule.forRoot()
   ],
   providers: [ConfigurationService],
   bootstrap: [AppComponent]

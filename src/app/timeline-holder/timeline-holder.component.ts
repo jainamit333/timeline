@@ -13,7 +13,6 @@ export class TimelineHolderComponent implements OnInit {
   timeline_2;
 
   constructor(private _ConfigurationService: ConfigurationService) {
-    console.log('constructor')
     this._ConfigurationService.getLayoutData('/assets/data/antarika-timeline.json').subscribe(
       (res: Object) => {
 
